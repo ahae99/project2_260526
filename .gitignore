@@ -1,0 +1,16 @@
+# SAM build artifacts
+.aws-sam/
+
+# Local env overrides (never commit)
+webui/.env.local
+webui/.env.*.local
+
+# Node
+node_modules/
+
+# Build output
+webui/dist/
+
+# Python
+__pycache__/
+*.pyc
